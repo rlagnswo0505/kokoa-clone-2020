@@ -9,3 +9,12 @@
     color: white;
     font-size: 600;
 }
+.cog__red-dot {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    bottom: 17px;
+}

@@ -1,7 +1,7 @@
 .nav {
     background-color: #f9f9fa;
     padding: 20px 40px;
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: var(--main-border);
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -20,7 +20,7 @@
     left: 15px;
     bottom: 15px;
 }
-.nav__ellipsis {
+.red-dot {
     background-color: tomato;
     width: 10px;
     height: 10px;
