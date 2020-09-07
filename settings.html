@@ -33,15 +33,16 @@
             <h1 class="alt-header__title">Settings</h1>
         </div>
         <div class="alt-header__column">
-            <i class="fas fa-search fa-2x"></i>
+            <a href=""><i class="fas fa-search fa-2x"></i></a>
         </div>
     </header>
-    <main class="main-screen">
+    <main class="main-screen settings-screen">
         <ul class="settings-list">
             <li class="settings__setting">
                 <div class="settings__setting-column">
                     <i class="fas fa-bullhorn"></i>
                     <span>Notices</span>
+                    <span class="setting-mark">N</span>
                 </div>
             </li>
             <li class="settings__setting">
@@ -54,9 +55,73 @@
                 <div class="settings__setting-column">
                     <i class="fas fa-info-circle"></i>
                     <span>Version</span>
+                    <span class="setting-mark">N</span>
                 </div>
                 <div class="settings__setting-column">
                     Latest Version
+                </div>
+            </li>
+        </ul>
+        <ul class="settings-list">
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-unlock-alt"></i>
+                    <span>Privacy</span>
+                </div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="far fa-bell"></i>
+                    <span>Notifications</span>
+                </div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-user"></i>
+                    <span>Friends</span>
+                </div>
+                
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-comment"></i>
+                    <span>Chats</span>
+                </div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-sun"></i>
+                    <span>Display</span>
+                </div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-brush"></i>
+                    <span>Themes</span>
+                    <span class="setting-mark">N</span>
+                </div>
+                <div class="settings__setting-column">
+                    Default theme
+                </div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>Call</span>
+                </div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-ellipsis-h"></i>
+                    <span>More</span>
+                </div>
+            </li>
+        </ul>
+        <ul class="settings-list">
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="far fa-question-circle"></i>
+                    <span>Questions</span>
                 </div>
             </li>
         </ul>
@@ -83,7 +148,12 @@
             </li>
         </ul>
     </nav>
-    
+    <div id="no-mobile">
+        <div class="no-mobile__title">
+            <span>Your screen is too big</span>
+            <i class="far fa-sad-tear"></i>
+        </div>
+    </div>
     <script src="https://kit.fontawesome.com/62459248d0.js" crossorigin="anonymous"></script>
 </body>
 

@@ -9,6 +9,7 @@
 .welcom-header__title {
     margin-bottom: 30px;
     font-size: 25px;
+    animation: color-change 2s linear infinite alternate both;
 }
 .welcom-header__text {
     width: 60%;
@@ -24,26 +25,39 @@
     border: none;
     font-size: 18px;
     margin-bottom: 25px;
+    
+    background-color: #24333C;
 }
 #login-form input:not([type="submit"]) {
     border-bottom: var(--main-border);
+    color: #a0b3b0;
     transition: border-color 0.4s ease-in-out;
 }
 #login-form input::placeholder {
-    color: var(--gray);
+    color: #a0b3b0;
 }
 #login-form input:focus {
-    border-color: var(--yellow);
+    border-color: var(--main-color);
 }
 #login-form input[type="submit"] {
-    background-color: var(--yellow);
+    background-color: #1AB188;
     cursor: pointer;
     padding: 20px 0px;
-    border-radius: 5px;
+    border-radius: 6px;
+    border-bottom: 4px solid var(--main-dark);
+    color: var(--white);
+    transition: border 0.2s ease-in-out, background-color 0.5s ease-in-out;
+}
+#login-form input[type="submit"]:hover {
+    will-change: auto;
+    border-bottom-width: 0;
+    margin-top: 3px;
+    background-color: #158d5f;
 }
 #login-form a {
     text-align: center;
     text-decoration: none;
     color:inherit;
     font-size: 13px;
+    
 }

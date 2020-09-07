@@ -4,6 +4,12 @@
     align-items: center;
     padding: var(--horizontal-space);
     margin-top: 15px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--background-color);
+    z-index: 1;
 }
 .screen-header__title {
     font-size: 32px;
@@ -11,4 +17,17 @@
 }
 .screen-header__icon span {
     margin-left: 20px;
+}
+@keyframes rotateCog {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icon .fa-cog:hover { 
+    animation: rotateCog 2s linear infinite;
+    color: tomato;
 }

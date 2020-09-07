@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Settings - Kokoa Talk</title>
+    <title>More - Kokoa Talk</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -24,10 +24,10 @@
         </div>
     </div>
     <header class="screen-header">
-        <h1 class="screen-header__title">Setting</h1>
+        <h1 class="screen-header__title">More</h1>
         <div class="screen-header__icon">
-            <span><i class="fas fa-search fa-lg"></i></span>
-            <span><i class="fas fa-music fa-lg"></i></span>           
+            <span><a href=""><i class="fas fa-search fa-lg"></i></a></span>
+            <span><a href=""><i class="fas fa-music fa-lg"></i></a></span>           
             <span class="screen-header__icon-cog"><a href="settings.html"><i class="fas fa-cog fa-lg"></a></i>
             <div class="cog__red-dot"></div>
             </span>
@@ -49,27 +49,65 @@
                 <i class="far fa-comment-alt fa-2x"></i>
             </div>
         </div>
+        <div class="kokoa-pay">
+            <div class="kokoa-pay__column">
+                <div class="kokoa-pay__column-pay">
+                    <i class="fas fa-comment"></i>
+                    <span>pay </span>
+                    <span>450,000원</span>
+                </div>
+            </div>
+            <div class="kokoa-pay__column">
+                <span><a href="">송금</a></span>
+                <span><a href="">결제</a></span>
+                <span><a href="">자산</a></span>
+            </div>
+        </div>
         <div class="icon-row">
             <div class="icon-row__icon">
-                <i class="far fa-calendar-check"></i>
+                <a href=""><i class="far fa-calendar-check"></i></a>
                 <span>Calendar</span>
             </div>
             <div class="icon-row__icon">
-                <i class="fas fa-car"></i>
+                <a href=""><i class="fas fa-car"></i></a>
                 <span>Talk Drive</span>
             </div>
             <div class="icon-row__icon">
-                <i class="far fa-smile-beam"></i>
+                <a href=""><i class="far fa-smile-beam"></i></a>
                 <span>Emotiocons</span>
             </div>
             <div class="icon-row__icon">
-                <i class="fas fa-brush"></i>
+                <a href=""><i class="fas fa-brush"></i></a>
                 <span>Themes</span>
+            </div>
+        </div>
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <a href=""><i class="far fa-envelope"></i></a>
+                <span>Mail</span>
+            </div>
+            <div class="icon-row__icon">
+                <a href=""><i class="fas fa-store"></i></a>
+                <span>Shoping</span>
+            </div>
+            <div class="icon-row__icon">
+                <a href=""><i class="fas fa-utensils"></i></a>
+                <span>Order</span>
+            </div>
+            <div class="icon-row__icon">
+                <a href=""><i class="fas fa-gamepad"></i></a>
+                <span>Game</span>
             </div>
         </div>
         <div class="more-suggestions">
             <h4 class="more-suggestions__title">Suggestions</h4>
             <div class="more-suggestions__icons">
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <span class="more-suggestions__icon-text">Kokoa Story</span>
+                </div>
                 <div class="more-suggestions__icon">
                     <div class="more-suggestions__icon-image">
                         <i class="fas fa-quote-right"></i>
@@ -113,7 +151,12 @@
             </li>
         </ul>
     </nav>
-    
+    <div id="no-mobile">
+        <div class="no-mobile__title">
+            <span>Your screen is too big</span>
+            <i class="far fa-sad-tear"></i>
+        </div>
+    </div>
     <script src="https://kit.fontawesome.com/62459248d0.js" crossorigin="anonymous"></script>
 </body>
 
